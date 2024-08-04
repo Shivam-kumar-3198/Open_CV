@@ -17,7 +17,7 @@ while True:
     isTrue, frame = capture.read()
 
     if not isTrue:
-        print("Error: Could not read frame.")
+        print("Error: Could not read your.")
         break
 
     frame_resized = rescaleFrame(frame, scale=0.2)
