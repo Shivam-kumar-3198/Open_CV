@@ -4,4 +4,4 @@ img = cv.imread('photos/stud.jpg')
 
 cv.imshow('Student', img)
 
-cv.waitKey(3000)
+cv.waitKey(4000)
